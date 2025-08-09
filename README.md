@@ -14,7 +14,18 @@ to do various things such as:
 ## Getting Started
 
 ### Dependencies
-TODO - List library dependencies used
+The following libraries are used in this project:
+Library                 Version Author
+----------------------- ------- --------
+Adafruit Unified Sensor 1.1.15  Adafruit
+DHT sensor library      1.4.4   Adafruit
+PubSubClient            2.8     Nick O'Leary
+LiquidCrystel I2C       1.1.2   Frank de Brabander
+
+### Installing
+
+* Install the above libraries using the Arduino IDE library manager.
+* Create a secrets.h file in the same directory as the .ino file.
 
 You will need to create a secrets.h that conains the following.
 ```cpp
@@ -24,15 +35,6 @@ You will need to create a secrets.h that conains the following.
 #define MQTT_PORT       1883
 #define MQTT_USERNAME   "YOUR_MQTT_USERNAME"
 #define MQTT_PASSWORD   "YOUR_MQTT_PASSWORD"
-```
-
-### Installing
-
-
-### Executing program
-
-```
-code blocks for commands
 ```
 
 ## Authors
